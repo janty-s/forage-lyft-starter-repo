@@ -4,7 +4,6 @@ from datetime import date
 from battery.nubbin_battery import NubbinBattery
 from battery.spindler_battery import SpindlerBattery
 
-
 class Test_Nubbin_Battery(unittest.TestCase):
     def test_needs_service_true(self):
         current_date = date.fromisoformat("2020-20-20")
