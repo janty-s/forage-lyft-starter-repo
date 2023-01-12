@@ -1,6 +1,6 @@
 from abc import ABC
 
 
-class Battery(ABC):
+class Engine(ABC):
     def needs_service(self):
         pass
